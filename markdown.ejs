@@ -1,6 +1,6 @@
 <% commits.forEach(function (commit) { %>
-  * <%= commit.title %>
-    <%= commit.title %>  
+  * <%= commit.story_number %>
+    <%= commit.jira_summary %>  
     [<%= commit.authorName %>](mailto:<%= commit.authorEmail %>) - <%= commit.committerDate %>
       
       <%= commit.messageLines.join("\n    ") %>

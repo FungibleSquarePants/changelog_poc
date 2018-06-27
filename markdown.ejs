@@ -1,7 +1,5 @@
-<% commits.forEach(function (commit) { %>
-  * <%= commit.story_number %>
-    <%= commit.jira_summary %>  
-    [<%= commit.authorName %>](mailto:<%= commit.authorEmail %>) - <%= commit.committerDate %>
-      
-      <%= commit.messageLines.join("\n    ") %>
-  <% }) %>
+# Changelog for <%= range%>
+<% for (story in stories) { %>
+### <%= story %>: <%= stories[story].summary %>
+<%= stories[story].description %>
+<% } %>

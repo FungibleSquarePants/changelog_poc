@@ -3,20 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FungibleSquarePants/changelog_poc.git"
   },
-  "author": "",
+  "author": "Fungible SquarePants",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/FungibleSquarePants/changelog_poc/issues"
   },
   "homepage": "https://github.com/FungibleSquarePants/changelog_poc#readme",
   "dependencies": {
-    "git-release-notes": "^3.0.0"
+    "git-release-notes": "^3.0.0",
+    "xmlhttprequest": "^1.8.0"
   }
 }
